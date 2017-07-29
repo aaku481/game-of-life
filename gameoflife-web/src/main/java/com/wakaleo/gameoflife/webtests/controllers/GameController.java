@@ -115,6 +115,7 @@ public class GameController {
 	// Getter for this class' random number generator
 	// Good practice to avoid directly accessing attributes, use getters and setters instead
     private Random getRandomGenerator() {
+	System.out.println("Hello Nareddar");
         return randomGenerator;
     }
 }
